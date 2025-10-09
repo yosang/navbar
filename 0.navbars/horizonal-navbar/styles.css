@@ -44,6 +44,9 @@ nav a:active, a:after, a:visited  {
     color: black;
 }
 
+nav li a:hover {
+    text-decoration: underline;
+}
 .main-content{
     display: flex;
     flex-direction: column;
