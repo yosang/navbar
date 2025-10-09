@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    font-size: 23px;
+    top: 0;
+    background-color: rgb(248, 248, 248);
+    padding: 5px 0px;
+}
+
+nav ul {    
+    list-style: none;
+    margin: 0;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* Company name */
+nav p {
+    margin-right: auto;
+}
+
+/* Menu items */
+nav li, nav li.login {
+    padding: 0px 10px;
+}
+
+nav li.login {
+    border: rgb(149, 149, 235) solid 1px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:active, a:after, a:visited  {
+    color: black;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    /* border: solid green 1px; */
+    width: 90%;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+.pricing {
+    padding: 5% 0;
+    display: flex;
+    gap: 5%;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 243, 243);
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+.card-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+.card-main-content button {
+    border: rgb(149, 149, 235) solid 1px;
+    border-radius: 5px;
+}
