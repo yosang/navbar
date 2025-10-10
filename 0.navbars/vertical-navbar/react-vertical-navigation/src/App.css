@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+nav ul {
+    margin: 1rem 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    display: block;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    background-color: aqua;
+}
+
+section {
+    overflow: hidden;
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
