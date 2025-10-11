@@ -1,13 +1,12 @@
 Setup the project:
-    ☐ npm init vite@latest
-    ☐ Remove all but vite and setup react from scratch
-    ☐ Setup react router and define the paths
+    ✔ npm init vite@latest @done(25-10-11 08:12)
+    ✔ Remove all but vite and setup react from scratch @done(25-10-11 08:12)
+    ✔ Setup react router and define the paths @done(25-10-11 08:12)
 Components:
-    ☐ Create the navbar component and link it to the pages
+    ✔ Create the navbar component and link it to the pages @done(25-10-11 08:12)
         Home My Network Jobs Messaging Notifications
     ☐ Style the navbar
         ☐ Add user experience effects
         ☐ Use a font
         ☐ Add icons
         ☐ Configure accessability
-    ☐ Create a main component and link it to the pages
