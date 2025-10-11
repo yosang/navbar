@@ -5,7 +5,7 @@ Setup the project:
 Components:
     ✔ Create the navbar component and link it to the pages @done(25-10-11 08:12)
         Home My Network Jobs Messaging Notifications
-    ☐ Style the navbar
+    ✔ Style the navbar @done(25-10-11 11:21)
         ☐ Add user experience effects
         ☐ Use a font
         ☐ Add icons
