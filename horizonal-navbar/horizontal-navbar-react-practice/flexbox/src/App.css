@@ -18,7 +18,8 @@ nav ul {
     justify-content: space-evenly;
 }
 
-nav li {
+nav li:nth-child(2) {
+    margin-right: auto;
 }
 
 nav a {
