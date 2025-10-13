@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        color: green;
+        margin: 10px 0;
+        padding: 10px;
+        transition: transform 0.2s ease;
+        border: 1px solid green;
+      }
+
+      div:target {
+        transform: translatey(20px);
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#section-id">Move me down</a>
+    <a href="#">Move me back up</a>
+
+    <div>A div without an id</div>
+    <div id="section-id">A div with an id</div>
+  </body>
+</html>
