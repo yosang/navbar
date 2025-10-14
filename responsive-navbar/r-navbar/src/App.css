@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    
+
     /* border: 1px solid red; */
 }
 
@@ -11,10 +11,15 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
-    transform: translateY(-100px);
-    transition: transform 0.2s ease;
+    height: 100%;
     
+    overflow: hidden;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    text-align: center;
+
+    font-size: 25px;
+
     /* border: 1px solid green; */
 }
 
@@ -24,11 +29,11 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+
     /* border: 1px solid yellow; */
 }
 
-nav a{
+nav a {
     display: block;
     text-decoration: none;
     color: black;
@@ -42,7 +47,7 @@ nav a:hover {
 
 nav:target {
     transform: translateY(0px);
-    
+
 }
 
 header:has(#navbar:target) #hamburger-btn {
@@ -51,5 +56,26 @@ header:has(#navbar:target) #hamburger-btn {
 
 #hamburger-btn {
     color: black;
-    float:right;
+    float: right;
+}
+
+@media (min-width: 750px) {
+    nav {
+        transform: translateY(0px);
+        /* border: 1px solid green; */
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #hamburger-btn, #close-btn{
+        display:none
+    }
+
+    header {
+        margin: 1rem 0;
+    }
 }
