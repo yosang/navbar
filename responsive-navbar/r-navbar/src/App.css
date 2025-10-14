@@ -5,7 +5,12 @@ body {
     /* border: 1px solid red; */
 }
 
+header {
+    margin: 1rem 1rem;
+}
+
 nav {
+    margin: 1rem 1rem;
     z-index: 1000;
     position: absolute;
     top: 0;
@@ -56,6 +61,7 @@ header:has(#navbar:target) #hamburger-btn {
 
 #hamburger-btn {
     color: black;
+    font-size: 25px;
     float: right;
 }
 
