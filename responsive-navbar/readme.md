@@ -2,6 +2,8 @@ A responsive navbar is a navbar that ajudsts from horizontal, to vertical depend
 
 We are going to program this using only css, specifically the `:target` pseudo selector.
 
+We'll start designing the mobile version, then do the desktop version using media queries.
+
 # :target
 The `:target` pseudo-class selectes the element that is currently targeted by an url. This means that when a URL contains a hash `#` followed by an `ID`, the element matching the `ID` becomes the `target` element.
 
@@ -82,4 +84,8 @@ header:has(#navbar:target) #hamburger-btn {
 
 This selects the header, and checks if the element identified by `#navbar` is targeted, if it is, select the `#hamburger-btn` and apply the `display:none` style to it.
 
-This selector is pretty cool and can even be used with forms, this video explains well how that can be done: https://www.youtube.com/watch?v=oVuVa9I-B04
+This selector is pretty cool and can even be used with forms, this1 video explains well how that can be done: https://www.youtube.com/watch?v=oVuVa9I-B04
+
+# Mediaqueries
+
+Our mediaquery will be `750px`, thats just what we are going to use.
