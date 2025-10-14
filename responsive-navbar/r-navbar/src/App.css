@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+nav {
+    /* border: 1px solid green; */
+    transform: translateY(-150px);
+    transition: transform 0.2s ease;
+}
+
+nav ul {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid yellow; */
+    list-style-type: none;
+
+    /*  */
+
+}
+
+nav a{
+    /* border: 1px solid blue; */
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: aquamarine;
+}
+
+nav:target {
+    transform: translateY(0px);
+}
