@@ -11,7 +11,7 @@ export default () => {
                     <a id="close-btn" href="#"><i class="fa-solid fa-xmark" aria-hidden="true"></i></a>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li class="dropdown"><a href="#">Resources</a>
+                    <li class="dropdown"><a>Resources</a>
                         <ul class="dropdown-menu">
                             <li><a href="#">JavaScript</a></li>
                             <li><a href="#">NodeJs</a></li>
