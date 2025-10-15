@@ -1,0 +1,57 @@
+/* Keeps the actual size of the container when adjust width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Desktop version: Remove default browser margin*/
+body {
+    margin: 0;
+}
+
+/* Desktop version: Pushes the header down a bit */
+header {
+    margin: 0.2rem 0;
+}
+
+/* Desktop version:  */
+nav ul {
+    margin: 0;
+    padding: 1rem 0;
+    
+    list-style-type: none;
+    
+    /* Positions the elements nicely in a row with flexbox */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Desktop version: Styles the a link in all its states */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: 0.2s color;
+}
+
+/* Desktop version: Changes the color of the a link in its hover state */
+nav a:hover {
+    color:gainsboro;
+}
+
+/* Desktop version: Enables position relative for the dropdown li so we can attach the dropdown-menu to it with position absolute */
+.dropdown {
+    position: relative;
+}
+
+/* Desktop version: Positioned absolute to the dropdown li */
+.dropdown-menu {
+    position: absolute;
+    padding: 0;
+    display: none;
+}
+
+/* Desktop version: Selects the dropdown li when it is in its hovering state + dropdown-menu and displays it */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
