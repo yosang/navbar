@@ -51,6 +51,7 @@ nav a:hover {
     position: absolute;
     padding: 0;
     display: none;
+    cursor: pointer;
 }
 
 /* Desktop version: Selects the dropdown li when it is in its hovering state + dropdown-menu and displays it */
