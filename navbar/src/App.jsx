@@ -5,8 +5,10 @@ export default () => {
     return (
         <>
         <header>
-            <nav>
+            <a id="hamburger-btn" href="#navbar"><i class="fa-solid fa-bars" aria-hidden="true"></i></a>
+            <nav id="navbar">
                 <ul>
+                    <a id="close-btn" href="#"><i class="fa-solid fa-xmark" aria-hidden="true"></i></a>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li class="dropdown"><a href="#">Resources</a>

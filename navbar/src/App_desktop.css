@@ -54,4 +54,11 @@ nav a:hover {
 /* Desktop version: Selects the dropdown li when it is in its hovering state + dropdown-menu and displays it */
 .dropdown:hover .dropdown-menu {
     display: block;
+    padding: 1rem;
+    border-left: 1px solid salmon;
+    border-bottom: 1px solid salmon;
+}
+
+#hamburger-btn, #close-btn {
+    display: none;
 }

@@ -1,16 +1,38 @@
 /* Mobile version: We have set a maximum of 750px for the screen width to account for ipads*/
 @media (max-width: 750px) {
+    nav {
+        /* We want it to appear from the right */
+        transform: translateX(-100%);
+        transition: transform 0.2s ease;
+    }
+
     nav ul {
         flex-direction: column;
         align-items: center;
-        /* height: 100vh; */ /* This is option, but basically it takes over the whole screen */
-    }
-    
-    /* Mobile version: Since the whole menu is now vertical,this adds some nice touch to distinguish the dropdown menu */
-    .dropdown-menu {
-        padding: 1rem;
-        border-left: 1px solid salmon;
-        border-bottom: 1px solid salmon;
+        /* height: 100vh; */
+        /* This is optional, but basically it takes over the whole screen */
+
     }
 
+    /* Activates this style when the navbar is targeted */
+    nav:target {
+        transform: translateX(0px)
+    }
+
+    /* Buttons */
+    /* Simple style to the hamburger button and position it to the right of the screen */
+    #hamburger-btn {
+        display: block;
+        font-size: 30px;
+        color: black;
+        float: right;
+    }
+
+    #close-btn {
+        display: block;
+    }
+
+    header:has(nav:target) #hamburger-btn {
+        display: none;
+    }
 }
