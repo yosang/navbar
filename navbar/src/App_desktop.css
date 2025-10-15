@@ -31,7 +31,7 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 25px;
-    transition: 0.2s color;
+    transition: 0.2s color ease;
 }
 
 /* Desktop version: Changes the color of the a link in its hover state */

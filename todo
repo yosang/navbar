@@ -1,7 +1,8 @@
-Core:
-    Create desktop version
-        Add dropdown
-    ☐ Create mobile version
+Desktop version:
+    ✔ Create desktop version @done(25-10-15 21:10)
+        ✔ Add dropdown @done(25-10-15 21:10)
+Mobile version:
+    ✔ Create mobile version @done(25-10-15 21:10)
 Styling:
     ☐ Font
     ☐ Icons

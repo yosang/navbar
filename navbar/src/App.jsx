@@ -1,4 +1,5 @@
 import './App_desktop.css'
+import './App_mobile.css'
 
 export default () => {
     return (
