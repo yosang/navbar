@@ -1,0 +1,50 @@
+/* This is all basic horizontal navbar code */
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* Targets the dropdown class which is the About li  */
+
+.dropdown {
+    position: relative;
+}
+
+/* Targets the dropdown-menu class which is the ul inside the About li  */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    padding: 0;
+    z-index: 1000;
+}
+
+/* Adds a little hover color */
+.dropdown-menu a:hover {
+    color: grey;
+}
+
+/* [selects the dropdown item when its on hover state] [selects the dropdown-menu] */
+/* Adds display block to display it */
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
