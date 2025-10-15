@@ -1,14 +1,19 @@
-body {
-    box-sizing: border-box;
-    margin: 0;
+/* Makes the browser account for any border and padding when specific width and height values are added to the content area */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+* {
+    box-sizing: border-box; /*  */
+}
 
-    /* border: 1px solid red; */
+/* Gets rid of default browser margin */
+body {
+    margin: 0;
 }
 
 header {
     margin: 1rem 1rem;
 }
 
+/* The mobile version of the navbar */
 nav {
     margin: 1rem 1rem;
     z-index: 1000;
